@@ -1,0 +1,62 @@
+<!doctype html>
+ 
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    
+    <title>MigawariSpeaker</title>
+    <meta name="description" content="MigawariSpeaker" />
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js" integrity="sha512-6+YN/9o9BWrk6wSfGxQGpt3EUK6XeHi6yeHV+TYD2GR0Sj/cggRpXr1BrAQf0as6XslxomMUxXp2vIl+fv0QRA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@koozaki/romaji-conv@2.0.22/dist/romaji-conv.js"></script>    
+  </head>
+  <body>
+    <div>
+      <div class="text-center">
+        <div class="text-xl">MigawariSpeaker</div>
+        <div class="my-2">
+          <input id="speak-text" class="input input-bordered w-full max-w-xs" placeholder="Type Here">
+        </div>
+        <div>
+          <div class="w-full">
+            <div class="mx-auto font-mono grid gap-1 border w-fit touch-none rounded-md p-2">
+              <div class="flex justify-center gap-3">
+                <div class="border w-8 h-8 vowels">a</div>
+                <div class="border w-8 h-8 vowels">i</div>
+              </div>
+              <div class="flex justify-center gap-10">
+                <div class="border w-8 h-8 vowels">u</div>
+                <div class="border w-8 h-8 vowels">e</div>
+              </div>
+              <div class="flex justify-center gap-3">
+                <div class="border w-8 h-8 vowels">o</div>
+                <div class="border w-8 h-8 vowels">n</div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-center gap-1 font-mono">
+                <div class="consonant border rounded-full w-8 h-8 hover:bg-gray-300 drop-shadow hover:drop-shadow-none bg-white flex justify-center items-center">k</div>
+                <div class="consonant border rounded-full w-8 h-8 hover:bg-gray-300 drop-shadow hover:drop-shadow-none bg-white flex justify-center items-center">s</div>
+                <div class="consonant border rounded-full w-8 h-8 hover:bg-gray-300 drop-shadow hover:drop-shadow-none bg-white flex justify-center items-center">t</div>
+                <div class="consonant border rounded-full w-8 h-8 hover:bg-gray-300 drop-shadow hover:drop-shadow-none bg-white flex justify-center items-center">n</div>
+                <div class="consonant border rounded-full w-8 h-8 hover:bg-gray-300 drop-shadow hover:drop-shadow-none bg-white flex justify-center items-center">h</div>
+                <div class="consonant border rounded-full w-8 h-8 hover:bg-gray-300 drop-shadow hover:drop-shadow-none bg-white flex justify-center items-center">m</div>
+                <div class="consonant border rounded-full w-8 h-8 hover:bg-gray-300 drop-shadow hover:drop-shadow-none bg-white flex justify-center items-center">y</div>
+                <div class="consonant border rounded-full w-8 h-8 hover:bg-gray-300 drop-shadow hover:drop-shadow-none bg-white flex justify-center items-center">r</div>
+                <div class="consonant border rounded-full w-8 h-8 hover:bg-gray-300 drop-shadow hover:drop-shadow-none bg-white flex justify-center items-center">w</div>
+                <div class="consonant border rounded-full w-8 h-8 hover:bg-gray-300 drop-shadow hover:drop-shadow-none bg-white flex justify-center items-center">g</div>
+                <div class="consonant border rounded-full w-8 h-8 hover:bg-gray-300 drop-shadow hover:drop-shadow-none bg-white flex justify-center items-center">z</div>
+                <div class="consonant border rounded-full w-8 h-8 hover:bg-gray-300 drop-shadow hover:drop-shadow-none bg-white flex justify-center items-center">d</div>
+                <div class="consonant border rounded-full w-8 h-8 hover:bg-gray-300 drop-shadow hover:drop-shadow-none bg-white flex justify-center items-center">b</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./src/main.ts"></script>
+  </body>
+</html>
+
