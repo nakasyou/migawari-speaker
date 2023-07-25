@@ -1,3 +1,7 @@
+import { Howl } from "howler";
+import { romajiConv } from "@koozaki/romaji-conv";
+import "./style.css"
+
 const $speakText = document.getElementById("speak-text");
 const speakText = async text => {
   const url = `https://synthesis-service.scratch.mit.edu/synth?locale=JA-JP&gender=female&text=${text}`;
