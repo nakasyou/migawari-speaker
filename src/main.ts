@@ -1,5 +1,5 @@
 import { Howl } from "howler";
-import { romajiConv } from "@koozaki/romaji-conv";
+import romajiConv from "@koozaki/romaji-conv";
 import "./style.css"
 
 const $speakText = document.getElementById("speak-text");
