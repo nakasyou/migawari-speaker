@@ -1,7 +1,9 @@
 {
   "name": "MigawariSpeaker",
+  "short_name": "MigawariSr",
   "lang": "ja",
-  "start_url": "/",
+  "id": "migawarispeaker",
+  "start_url": "/migawari-speaker",
   "icons": [
     {
       "src": "icon/icon.svg",
