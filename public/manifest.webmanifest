@@ -1,0 +1,19 @@
+{
+  "name": "MigawariSpeaker",
+  "lang": "ja",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "icon/icon.svg",
+      "sizes": "192x192 256x256 512x512",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "icon/icon-96x96.png",
+      "sizes": "96x96"
+    }
+  ],
+  "display": "standalone",
+  "theme_color": "#000",
+  "background_color": "#fff"
+}
