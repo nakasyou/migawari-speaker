@@ -6,12 +6,12 @@
   "start_url": "/migawari-speaker",
   "icons": [
     {
-      "src": "icon/icon.svg",
+      "src": "/migawari-speaker/favicon.svg",
       "sizes": "192x192 256x256 512x512",
       "type": "image/svg+xml"
     },
     {
-      "src": "icon/icon-96x96.png",
+      "src": "/migawari-speaker/favicon-96x96.png",
       "sizes": "96x96"
     }
   ],
